@@ -1,6 +1,6 @@
 ﻿param (
-    [string]$RepoOwner = "YOUR_GITHUB_USERNAME",
-    [string]$Branch = "master"
+    [string]$RepoOwner = "happypig1224",
+    [string]$Branch = "main"
 )
 
 $SkillName = "clean-engineering-code-style"
