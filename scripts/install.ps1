@@ -1,0 +1,1 @@
+New-Item -ItemType Directory -Force -Path "$HOME\.gemini\config\skills"; Copy-Item -Recurse -Force skills\clean-engineering-code-style "$HOME\.gemini\config\skills\"; Write-Host 'Installed clean-engineering-code-style'
